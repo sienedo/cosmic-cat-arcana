@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="460" viewBox="0 0 320 460">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#23113f"/><stop offset="1" stop-color="#6936a8"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="320" height="460" rx="28" fill="url(#g)"/>
+<rect x="14" y="14" width="292" height="432" rx="22" fill="none" stroke="#ffd98e" stroke-width="3"/>
+<rect x="27" y="27" width="266" height="406" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".28"/>
+<circle cx="276" cy="206" r="1.4" fill="#fff8d7" opacity=".75"/><circle cx="69" cy="237" r="1.8" fill="#fff8d7" opacity=".75"/><circle cx="122" cy="268" r="1.0" fill="#fff8d7" opacity=".75"/><circle cx="175" cy="299" r="1.4" fill="#fff8d7" opacity=".75"/><circle cx="228" cy="330" r="1.8" fill="#fff8d7" opacity=".75"/><circle cx="21" cy="361" r="1.0" fill="#fff8d7" opacity=".75"/><circle cx="74" cy="392" r="1.4" fill="#fff8d7" opacity=".75"/><circle cx="127" cy="43" r="1.8" fill="#fff8d7" opacity=".75"/><circle cx="180" cy="74" r="1.0" fill="#fff8d7" opacity=".75"/><circle cx="233" cy="105" r="1.4" fill="#fff8d7" opacity=".75"/><circle cx="26" cy="136" r="1.8" fill="#fff8d7" opacity=".75"/><circle cx="79" cy="167" r="1.0" fill="#fff8d7" opacity=".75"/><circle cx="132" cy="198" r="1.4" fill="#fff8d7" opacity=".75"/><circle cx="185" cy="229" r="1.8" fill="#fff8d7" opacity=".75"/><circle cx="238" cy="260" r="1.0" fill="#fff8d7" opacity=".75"/><circle cx="31" cy="291" r="1.4" fill="#fff8d7" opacity=".75"/><circle cx="84" cy="322" r="1.8" fill="#fff8d7" opacity=".75"/><circle cx="137" cy="353" r="1.0" fill="#fff8d7" opacity=".75"/>
+<path d="M72 95 C105 47 178 45 220 87" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="2"/>
+<circle cx="72" cy="95" r="4" fill="#fff"/><circle cx="132" cy="62" r="4" fill="#fff"/><circle cx="220" cy="87" r="4" fill="#fff"/>
+<rect x="185" y="135" width="8" height="92" rx="4" fill="#c47c3c"/><circle cx="189" cy="127" r="14" fill="#ffd86f"/><path d="M189 106 C202 124 194 138 181 139 C190 131 176 119 189 106Z" fill="#ff8b4a"/>
+<g filter="url(#glow)">
+<ellipse cx="145" cy="287" rx="66" ry="62" fill="#e9d3bd"/>
+<circle cx="145" cy="220" r="55" fill="#e9d3bd"/>
+<path d="M105 190 L120 142 L145 187 Z" fill="#e9d3bd"/>
+<path d="M185 190 L172 142 L145 187 Z" fill="#e9d3bd"/>
+<path d="M116 183 L123 160 L136 185 Z" fill="#f7c9ff" opacity=".75"/>
+<path d="M174 183 L168 160 L154 185 Z" fill="#f7c9ff" opacity=".75"/>
+<circle cx="126" cy="218" r="8" fill="#ffe87a"/><circle cx="164" cy="218" r="8" fill="#ffe87a"/>
+<circle cx="129" cy="218" r="3" fill="#221436"/><circle cx="167" cy="218" r="3" fill="#221436"/>
+<path d="M145 231 q-7 9-14 0" fill="none" stroke="#221436" stroke-width="3" stroke-linecap="round"/>
+<path d="M145 231 q7 9 14 0" fill="none" stroke="#221436" stroke-width="3" stroke-linecap="round"/>
+<path d="M145 224 l-7 8 h14 z" fill="#f2a6c8"/>
+<path d="M94 284 C44 284 51 346 103 329" fill="none" stroke="#e9d3bd" stroke-width="20" stroke-linecap="round"/>
+<circle cx="112" cy="300" r="8" fill="#ffffff" opacity=".18"/><circle cx="176" cy="300" r="8" fill="#ffffff" opacity=".18"/>
+</g>
+<text x="160" y="382" text-anchor="middle" font-family="Georgia,serif" font-size="24" font-weight="700" fill="#ffd98e">Seven of Wands</text>
+<text x="160" y="410" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" letter-spacing="3" fill="#ffffff" opacity=".78">COSMIC CAT TAROT</text>
+</svg>
