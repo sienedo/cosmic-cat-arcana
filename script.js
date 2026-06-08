@@ -135,85 +135,85 @@ const tarotCards = [
   },
   {
     "title": "Ace of Wands",
-    "image": "images/ace-of-wands.svg",
+    "image": "images/ace-of-wands.png",
     "zodiac": "Rasi: Wands Cat Constellation",
     "meaning": "Awal baru sedang datang membawa semangat kecil yang menyala seperti ekor kucing terkena cahaya bintang. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Two of Wands",
-    "image": "images/two-of-wands.svg",
+    "image": "images/two-of-wands.png",
     "zodiac": "Rasi: Wands Cat Constellation",
     "meaning": "Pilihan lembut sedang datang membawa semangat kecil yang menyala seperti ekor kucing terkena cahaya bintang. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Three of Wands",
-    "image": "images/three-of-wands.svg",
+    "image": "images/three-of-wands.png",
     "zodiac": "Rasi: Wands Cat Constellation",
     "meaning": "Kebersamaan sedang datang membawa semangat kecil yang menyala seperti ekor kucing terkena cahaya bintang. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Four of Wands",
-    "image": "images/four-of-wands.svg",
+    "image": "images/four-of-wands.png",
     "zodiac": "Rasi: Wands Cat Constellation",
     "meaning": "Ketenangan sedang datang membawa semangat kecil yang menyala seperti ekor kucing terkena cahaya bintang. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Five of Wands",
-    "image": "images/five-of-wands.svg",
+    "image": "images/five-of-wands.png",
     "zodiac": "Rasi: Wands Cat Constellation",
     "meaning": "Tantangan kecil sedang datang membawa semangat kecil yang menyala seperti ekor kucing terkena cahaya bintang. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Six of Wands",
-    "image": "images/six-of-wands.svg",
+    "image": "images/six-of-wands.png",
     "zodiac": "Rasi: Wands Cat Constellation",
     "meaning": "Kenangan manis sedang datang membawa semangat kecil yang menyala seperti ekor kucing terkena cahaya bintang. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Seven of Wands",
-    "image": "images/seven-of-wands.svg",
+    "image": "images/seven-of-wands.png",
     "zodiac": "Rasi: Wands Cat Constellation",
     "meaning": "Mimpi dan harapan sedang datang membawa semangat kecil yang menyala seperti ekor kucing terkena cahaya bintang. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Eight of Wands",
-    "image": "images/eight-of-wands.svg",
+    "image": "images/eight-of-wands.png",
     "zodiac": "Rasi: Wands Cat Constellation",
     "meaning": "Gerak maju sedang datang membawa semangat kecil yang menyala seperti ekor kucing terkena cahaya bintang. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Nine of Wands",
-    "image": "images/nine-of-wands.svg",
+    "image": "images/nine-of-wands.png",
     "zodiac": "Rasi: Wands Cat Constellation",
     "meaning": "Rasa cukup sedang datang membawa semangat kecil yang menyala seperti ekor kucing terkena cahaya bintang. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Ten of Wands",
-    "image": "images/ten-of-wands.svg",
+    "image": "images/ten-of-wands.png",
     "zodiac": "Rasi: Wands Cat Constellation",
     "meaning": "Pencapaian sedang datang membawa semangat kecil yang menyala seperti ekor kucing terkena cahaya bintang. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Page of Wands",
-    "image": "images/page-of-wands.svg",
+    "image": "images/page-of-wands.png",
     "zodiac": "Rasi: Wands Cat Constellation",
     "meaning": "Pesan lucu sedang datang membawa semangat kecil yang menyala seperti ekor kucing terkena cahaya bintang. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Knight of Wands",
-    "image": "images/knight-of-wands.svg",
+    "image": "images/knight-of-wands.png",
     "zodiac": "Rasi: Wands Cat Constellation",
     "meaning": "Energi berani sedang datang membawa semangat kecil yang menyala seperti ekor kucing terkena cahaya bintang. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Queen of Wands",
-    "image": "images/queen-of-wands.svg",
+    "image": "images/queen-of-wands.png",
     "zodiac": "Rasi: Wands Cat Constellation",
     "meaning": "Aura cantik sedang datang membawa semangat kecil yang menyala seperti ekor kucing terkena cahaya bintang. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "King of Wands",
-    "image": "images/king-of-wands.svg",
+    "image": "images/king-of-wands.png",
     "zodiac": "Rasi: Wands Cat Constellation",
     "meaning": "Kekuatan tenang sedang datang membawa semangat kecil yang menyala seperti ekor kucing terkena cahaya bintang. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
