@@ -219,253 +219,253 @@ const tarotCards = [
   },
   {
     "title": "Ace of Cups",
-    "image": "images/ace-of-cups.svg",
+    "image": "images/ace-of-cups.png",
     "zodiac": "Rasi: Cups Cat Constellation",
     "meaning": "Awal baru sedang datang membawa perasaan hangat, perhatian manis, dan hati yang sedang berbunga. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Two of Cups",
-    "image": "images/two-of-cups.svg",
+    "image": "images/two-of-cups.png",
     "zodiac": "Rasi: Cups Cat Constellation",
     "meaning": "Pilihan lembut sedang datang membawa perasaan hangat, perhatian manis, dan hati yang sedang berbunga. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Three of Cups",
-    "image": "images/three-of-cups.svg",
+    "image": "images/three-of-cups.png",
     "zodiac": "Rasi: Cups Cat Constellation",
     "meaning": "Kebersamaan sedang datang membawa perasaan hangat, perhatian manis, dan hati yang sedang berbunga. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Four of Cups",
-    "image": "images/four-of-cups.svg",
+    "image": "images/four-of-cups.png",
     "zodiac": "Rasi: Cups Cat Constellation",
     "meaning": "Ketenangan sedang datang membawa perasaan hangat, perhatian manis, dan hati yang sedang berbunga. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Five of Cups",
-    "image": "images/five-of-cups.svg",
+    "image": "images/five-of-cups.png",
     "zodiac": "Rasi: Cups Cat Constellation",
     "meaning": "Tantangan kecil sedang datang membawa perasaan hangat, perhatian manis, dan hati yang sedang berbunga. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Six of Cups",
-    "image": "images/six-of-cups.svg",
+    "image": "images/six-of-cups.png",
     "zodiac": "Rasi: Cups Cat Constellation",
     "meaning": "Kenangan manis sedang datang membawa perasaan hangat, perhatian manis, dan hati yang sedang berbunga. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Seven of Cups",
-    "image": "images/seven-of-cups.svg",
+    "image": "images/seven-of-cups.png",
     "zodiac": "Rasi: Cups Cat Constellation",
     "meaning": "Mimpi dan harapan sedang datang membawa perasaan hangat, perhatian manis, dan hati yang sedang berbunga. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Eight of Cups",
-    "image": "images/eight-of-cups.svg",
+    "image": "images/eight-of-cups.png",
     "zodiac": "Rasi: Cups Cat Constellation",
     "meaning": "Gerak maju sedang datang membawa perasaan hangat, perhatian manis, dan hati yang sedang berbunga. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Nine of Cups",
-    "image": "images/nine-of-cups.svg",
+    "image": "images/nine-of-cups.png",
     "zodiac": "Rasi: Cups Cat Constellation",
     "meaning": "Rasa cukup sedang datang membawa perasaan hangat, perhatian manis, dan hati yang sedang berbunga. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Ten of Cups",
-    "image": "images/ten-of-cups.svg",
+    "image": "images/ten-of-cups.png",
     "zodiac": "Rasi: Cups Cat Constellation",
     "meaning": "Pencapaian sedang datang membawa perasaan hangat, perhatian manis, dan hati yang sedang berbunga. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Page of Cups",
-    "image": "images/page-of-cups.svg",
+    "image": "images/page-of-cups.png",
     "zodiac": "Rasi: Cups Cat Constellation",
     "meaning": "Pesan lucu sedang datang membawa perasaan hangat, perhatian manis, dan hati yang sedang berbunga. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Knight of Cups",
-    "image": "images/knight-of-cups.svg",
+    "image": "images/knight-of-cups.png",
     "zodiac": "Rasi: Cups Cat Constellation",
     "meaning": "Energi berani sedang datang membawa perasaan hangat, perhatian manis, dan hati yang sedang berbunga. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Queen of Cups",
-    "image": "images/queen-of-cups.svg",
+    "image": "images/queen-of-cups.png",
     "zodiac": "Rasi: Cups Cat Constellation",
     "meaning": "Aura cantik sedang datang membawa perasaan hangat, perhatian manis, dan hati yang sedang berbunga. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "King of Cups",
-    "image": "images/king-of-cups.svg",
+    "image": "images/king-of-cups.png",
     "zodiac": "Rasi: Cups Cat Constellation",
     "meaning": "Kekuatan tenang sedang datang membawa perasaan hangat, perhatian manis, dan hati yang sedang berbunga. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Ace of Swords",
-    "image": "images/ace-of-swords.svg",
+    "image": "images/ace-of-swords.png",
     "zodiac": "Rasi: Swords Cat Constellation",
     "meaning": "Awal baru sedang datang membawa pikiran jernih, intuisi tajam, dan keberanian berkata jujur. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Two of Swords",
-    "image": "images/two-of-swords.svg",
+    "image": "images/two-of-swords.png",
     "zodiac": "Rasi: Swords Cat Constellation",
     "meaning": "Pilihan lembut sedang datang membawa pikiran jernih, intuisi tajam, dan keberanian berkata jujur. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Three of Swords",
-    "image": "images/three-of-swords.svg",
+    "image": "images/three-of-swords.png",
     "zodiac": "Rasi: Swords Cat Constellation",
     "meaning": "Kebersamaan sedang datang membawa pikiran jernih, intuisi tajam, dan keberanian berkata jujur. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Four of Swords",
-    "image": "images/four-of-swords.svg",
+    "image": "images/four-of-swords.png",
     "zodiac": "Rasi: Swords Cat Constellation",
     "meaning": "Ketenangan sedang datang membawa pikiran jernih, intuisi tajam, dan keberanian berkata jujur. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Five of Swords",
-    "image": "images/five-of-swords.svg",
+    "image": "images/five-of-swords.png",
     "zodiac": "Rasi: Swords Cat Constellation",
     "meaning": "Tantangan kecil sedang datang membawa pikiran jernih, intuisi tajam, dan keberanian berkata jujur. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Six of Swords",
-    "image": "images/six-of-swords.svg",
+    "image": "images/six-of-swords.png",
     "zodiac": "Rasi: Swords Cat Constellation",
     "meaning": "Kenangan manis sedang datang membawa pikiran jernih, intuisi tajam, dan keberanian berkata jujur. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Seven of Swords",
-    "image": "images/seven-of-swords.svg",
+    "image": "images/seven-of-swords.png",
     "zodiac": "Rasi: Swords Cat Constellation",
     "meaning": "Mimpi dan harapan sedang datang membawa pikiran jernih, intuisi tajam, dan keberanian berkata jujur. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Eight of Swords",
-    "image": "images/eight-of-swords.svg",
+    "image": "images/eight-of-swords.png",
     "zodiac": "Rasi: Swords Cat Constellation",
     "meaning": "Gerak maju sedang datang membawa pikiran jernih, intuisi tajam, dan keberanian berkata jujur. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Nine of Swords",
-    "image": "images/nine-of-swords.svg",
+    "image": "images/nine-of-swords.png",
     "zodiac": "Rasi: Swords Cat Constellation",
     "meaning": "Rasa cukup sedang datang membawa pikiran jernih, intuisi tajam, dan keberanian berkata jujur. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Ten of Swords",
-    "image": "images/ten-of-swords.svg",
+    "image": "images/ten-of-swords.png",
     "zodiac": "Rasi: Swords Cat Constellation",
     "meaning": "Pencapaian sedang datang membawa pikiran jernih, intuisi tajam, dan keberanian berkata jujur. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Page of Swords",
-    "image": "images/page-of-swords.svg",
+    "image": "images/page-of-swords.png",
     "zodiac": "Rasi: Swords Cat Constellation",
     "meaning": "Pesan lucu sedang datang membawa pikiran jernih, intuisi tajam, dan keberanian berkata jujur. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Knight of Swords",
-    "image": "images/knight-of-swords.svg",
+    "image": "images/knight-of-swords.png",
     "zodiac": "Rasi: Swords Cat Constellation",
     "meaning": "Energi berani sedang datang membawa pikiran jernih, intuisi tajam, dan keberanian berkata jujur. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Queen of Swords",
-    "image": "images/queen-of-swords.svg",
+    "image": "images/queen-of-swords.png",
     "zodiac": "Rasi: Swords Cat Constellation",
     "meaning": "Aura cantik sedang datang membawa pikiran jernih, intuisi tajam, dan keberanian berkata jujur. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "King of Swords",
-    "image": "images/king-of-swords.svg",
+    "image": "images/king-of-swords.png",
     "zodiac": "Rasi: Swords Cat Constellation",
     "meaning": "Kekuatan tenang sedang datang membawa pikiran jernih, intuisi tajam, dan keberanian berkata jujur. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Ace of Pentacles",
-    "image": "images/ace-of-pentacles.svg",
+    "image": "images/ace-of-pentacles.png",
     "zodiac": "Rasi: Pentacles Cat Constellation",
     "meaning": "Awal baru sedang datang membawa kenyamanan, rezeki kecil, makanan enak, dan hal-hal yang membuat aman. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Two of Pentacles",
-    "image": "images/two-of-pentacles.svg",
+    "image": "images/two-of-pentacles.png",
     "zodiac": "Rasi: Pentacles Cat Constellation",
     "meaning": "Pilihan lembut sedang datang membawa kenyamanan, rezeki kecil, makanan enak, dan hal-hal yang membuat aman. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Three of Pentacles",
-    "image": "images/three-of-pentacles.svg",
+    "image": "images/three-of-pentacles.png",
     "zodiac": "Rasi: Pentacles Cat Constellation",
     "meaning": "Kebersamaan sedang datang membawa kenyamanan, rezeki kecil, makanan enak, dan hal-hal yang membuat aman. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Four of Pentacles",
-    "image": "images/four-of-pentacles.svg",
+    "image": "images/four-of-pentacles.png",
     "zodiac": "Rasi: Pentacles Cat Constellation",
     "meaning": "Ketenangan sedang datang membawa kenyamanan, rezeki kecil, makanan enak, dan hal-hal yang membuat aman. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Five of Pentacles",
-    "image": "images/five-of-pentacles.svg",
+    "image": "images/five-of-pentacles.png",
     "zodiac": "Rasi: Pentacles Cat Constellation",
     "meaning": "Tantangan kecil sedang datang membawa kenyamanan, rezeki kecil, makanan enak, dan hal-hal yang membuat aman. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Six of Pentacles",
-    "image": "images/six-of-pentacles.svg",
+    "image": "images/six-of-pentacles.png",
     "zodiac": "Rasi: Pentacles Cat Constellation",
     "meaning": "Kenangan manis sedang datang membawa kenyamanan, rezeki kecil, makanan enak, dan hal-hal yang membuat aman. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Seven of Pentacles",
-    "image": "images/seven-of-pentacles.svg",
+    "image": "images/seven-of-pentacles.png",
     "zodiac": "Rasi: Pentacles Cat Constellation",
     "meaning": "Mimpi dan harapan sedang datang membawa kenyamanan, rezeki kecil, makanan enak, dan hal-hal yang membuat aman. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Eight of Pentacles",
-    "image": "images/eight-of-pentacles.svg",
+    "image": "images/eight-of-pentacles.png",
     "zodiac": "Rasi: Pentacles Cat Constellation",
     "meaning": "Gerak maju sedang datang membawa kenyamanan, rezeki kecil, makanan enak, dan hal-hal yang membuat aman. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Nine of Pentacles",
-    "image": "images/nine-of-pentacles.svg",
+    "image": "images/nine-of-pentacles.png",
     "zodiac": "Rasi: Pentacles Cat Constellation",
     "meaning": "Rasa cukup sedang datang membawa kenyamanan, rezeki kecil, makanan enak, dan hal-hal yang membuat aman. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Ten of Pentacles",
-    "image": "images/ten-of-pentacles.svg",
+    "image": "images/ten-of-pentacles.png",
     "zodiac": "Rasi: Pentacles Cat Constellation",
     "meaning": "Pencapaian sedang datang membawa kenyamanan, rezeki kecil, makanan enak, dan hal-hal yang membuat aman. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Page of Pentacles",
-    "image": "images/page-of-pentacles.svg",
+    "image": "images/page-of-pentacles.png",
     "zodiac": "Rasi: Pentacles Cat Constellation",
     "meaning": "Pesan lucu sedang datang membawa kenyamanan, rezeki kecil, makanan enak, dan hal-hal yang membuat aman. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Knight of Pentacles",
-    "image": "images/knight-of-pentacles.svg",
+    "image": "images/knight-of-pentacles.png",
     "zodiac": "Rasi: Pentacles Cat Constellation",
     "meaning": "Energi berani sedang datang membawa kenyamanan, rezeki kecil, makanan enak, dan hal-hal yang membuat aman. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "Queen of Pentacles",
-    "image": "images/queen-of-pentacles.svg",
+    "image": "images/queen-of-pentacles.png",
     "zodiac": "Rasi: Pentacles Cat Constellation",
     "meaning": "Aura cantik sedang datang membawa kenyamanan, rezeki kecil, makanan enak, dan hal-hal yang membuat aman. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   },
   {
     "title": "King of Pentacles",
-    "image": "images/king-of-pentacles.svg",
+    "image": "images/king-of-pentacles.png",
     "zodiac": "Rasi: Pentacles Cat Constellation",
     "meaning": "Kekuatan tenang sedang datang membawa kenyamanan, rezeki kecil, makanan enak, dan hal-hal yang membuat aman. Untuk hari ulang tahunmu, ini tanda kecil bahwa kamu pantas bahagia."
   }
