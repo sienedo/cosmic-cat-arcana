@@ -3,133 +3,133 @@ let openedCards = [];
 const tarotCards = [
   {
     "title": "The Fool",
-    "image": "images/the-fool.svg",
+    "image": "images/the-fool.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Awal baru yang manis. Hari ini kamu boleh melangkah ringan seperti anak kucing mengejar bintang."
   },
   {
     "title": "The Magician",
-    "image": "images/the-magician.svg",
+    "image": "images/the-magician.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Kamu punya pesona yang bisa mengubah hari biasa jadi ajaib. Bahkan kucing-kucing kosmik ikut terpukau."
   },
   {
     "title": "The High Priestess",
-    "image": "images/the-high-priestess.svg",
+    "image": "images/the-high-priestess.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Intuisimu sedang kuat. Kalau hatimu bilang ingin dimanja, berarti itu wahyu resmi dari bulan."
   },
   {
     "title": "The Empress",
-    "image": "images/the-empress.svg",
+    "image": "images/the-empress.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Energi kamu hari ini lembut, cantik, dan berharga. Kamu pantas dirawat seperti ratu kecil semesta."
   },
   {
     "title": "The Emperor",
-    "image": "images/the-emperor.svg",
+    "image": "images/the-emperor.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Kamu punya sisi kuat yang bikin dunia terasa lebih tertata. Tapi tetap boleh minta pelukan."
   },
   {
     "title": "The Hierophant",
-    "image": "images/the-hierophant.svg",
+    "image": "images/the-hierophant.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Hari ini semesta mengajarkan: kebahagiaan kecil juga perlu dirayakan dengan serius."
   },
   {
     "title": "The Lovers",
-    "image": "images/the-lovers.svg",
+    "image": "images/the-lovers.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Ada cinta yang hangat di sekitarmu. Clue-nya: seseorang sampai membuat tarot kucing ini."
   },
   {
     "title": "The Chariot",
-    "image": "images/the-chariot.svg",
+    "image": "images/the-chariot.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Kamu sedang bergerak maju. Pelan juga tidak apa-apa, yang penting tetap menuju hal baik."
   },
   {
     "title": "Strength",
-    "image": "images/strength.svg",
+    "image": "images/strength.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Kekuatanmu tidak selalu keras. Kadang bentuknya sabar, lembut, dan tetap tersenyum."
   },
   {
     "title": "The Hermit",
-    "image": "images/the-hermit.svg",
+    "image": "images/the-hermit.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Saat ingin tenang, ambil waktu untuk diri sendiri. Kucing bulan akan menjaga mimpimu."
   },
   {
     "title": "Wheel of Fortune",
-    "image": "images/wheel-of-fortune.svg",
+    "image": "images/wheel-of-fortune.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Keberuntungan sedang berputar. Semoga berhenti di makanan enak, kabar baik, dan perhatian manis."
   },
   {
     "title": "Justice",
-    "image": "images/justice.svg",
+    "image": "images/justice.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Kartu ini memutuskan: hari ini kamu berhak mendapat perlakuan paling manis."
   },
   {
     "title": "The Hanged Man",
-    "image": "images/the-hanged-man.svg",
+    "image": "images/the-hanged-man.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Coba lihat hari ini dari sudut berbeda. Mungkin dunia sedang menyiapkan kejutan kecil."
   },
   {
     "title": "Death",
-    "image": "images/death.svg",
+    "image": "images/death.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Bukan akhir yang menyeramkan. Ini tanda perubahan lucu: versi baru kamu yang makin bersinar."
   },
   {
     "title": "Temperance",
-    "image": "images/temperance.svg",
+    "image": "images/temperance.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Campuran terbaik hari ini: tenang, bahagia, sedikit manja, dan banyak disayang."
   },
   {
     "title": "The Devil",
-    "image": "images/the-devil.svg",
+    "image": "images/the-devil.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Godaan hari ini mungkin snack, rebahan, atau minta perhatian ekstra. Semesta tidak menghakimi."
   },
   {
     "title": "The Tower",
-    "image": "images/the-tower.svg",
+    "image": "images/the-tower.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Kalau ada hal menyebalkan, biarkan runtuh. Nanti dibangun lagi dengan bantal, teh, dan cinta."
   },
   {
     "title": "The Star",
-    "image": "images/the-star.svg",
+    "image": "images/the-star.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Harapanmu sedang menyala lembut. Para kucing bintang mengirimkan keberuntungan kecil."
   },
   {
     "title": "The Moon",
-    "image": "images/the-moon.svg",
+    "image": "images/the-moon.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Malam mungkin penuh misteri, tapi kamu tetap bersinar. Bahkan bulan iri sedikit."
   },
   {
     "title": "The Sun",
-    "image": "images/the-sun.svg",
+    "image": "images/the-sun.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Kartu paling cerah. Hari ini kamu wajib bahagia, makan enak, dan merasa dicintai."
   },
   {
     "title": "Judgement",
-    "image": "images/judgement.svg",
+    "image": "images/judgement.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Panggilan semesta: saatnya menerima bahwa kamu memang spesial."
   },
   {
     "title": "The World",
-    "image": "images/the-world.svg",
+    "image": "images/the-world.png",
     "zodiac": "Rasi: Kucing Arcana Mayor",
     "meaning": "Siklus indah selesai dan yang baru dimulai. Tahun ini semoga duniamu makin hangat."
   },
