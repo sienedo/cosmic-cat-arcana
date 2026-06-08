@@ -1,3 +1,5 @@
+let openedCards = [];
+
 const tarotCards = [
   {
     "title": "The Fool",
@@ -477,18 +479,147 @@ function shuffle(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
 
+function getSuit(card) {
+  if (card.title.includes("Wands")) return "Wands";
+  if (card.title.includes("Cups")) return "Cups";
+  if (card.title.includes("Swords")) return "Swords";
+  if (card.title.includes("Pentacles")) return "Pentacles";
+  return "Major";
+}
+
+function generateDailyReading(cards) {
+  const positions = [
+    "Masa Lalu",
+    "Situasi Saat Ini",
+    "Masa Depan Dekat",
+    "Faktor Eksternal / Peluang",
+    "Hasil Akhir"
+  ];
+
+  const positionMeaning = [
+    "akar energi yang masih terbawa sampai hari ini",
+    "keadaan utama yang sedang kamu hadapi sekarang",
+    "arah yang mungkin terjadi jika energi hari ini terus berjalan",
+    "bantuan, peluang, atau pengaruh luar yang bisa muncul",
+    "kesimpulan dari seluruh energi hari ini"
+  ];
+
+  const suits = cards.map(getSuit);
+
+  const majorCount = suits.filter(s => s === "Major").length;
+  const wandsCount = suits.filter(s => s === "Wands").length;
+  const cupsCount = suits.filter(s => s === "Cups").length;
+  const swordsCount = suits.filter(s => s === "Swords").length;
+  const pentaclesCount = suits.filter(s => s === "Pentacles").length;
+
+  let intro = "";
+
+  if (majorCount >= 3) {
+    intro = "Tebaran ini terasa kuat karena banyak Arcana Mayor muncul. Hari ini bukan sekadar rutinitas, tetapi ada pelajaran penting, perubahan batin, atau momen yang perlu kamu sadari.";
+  } else {
+    intro = "Tebaran ini lebih banyak dipengaruhi Arcana Minor. Artinya, ramalan hari ini dekat dengan kejadian sehari-hari, suasana hati, keputusan kecil, hubungan, pekerjaan, atau kenyamanan diri.";
+  }
+
+  let elementReading = "";
+
+  if (wandsCount >= 2) {
+    elementReading += "Elemen Wands cukup kuat. Hari ini membawa dorongan, semangat, ide baru, atau keinginan untuk bergerak maju. ";
+  }
+
+  if (cupsCount >= 2) {
+    elementReading += "Elemen Cups menonjol. Perasaan, cinta, perhatian, dan kebutuhan untuk dimengerti menjadi tema penting. ";
+  }
+
+  if (swordsCount >= 2) {
+    elementReading += "Elemen Swords muncul kuat. Hati-hati dengan overthinking, salah paham, atau keputusan yang terlalu banyak dipikirkan. ";
+  }
+
+  if (pentaclesCount >= 2) {
+    elementReading += "Elemen Pentacles cukup dominan. Uang, pekerjaan, kenyamanan, tubuh, atau rasa aman ikut menjadi fokus hari ini. ";
+  }
+
+  if (!elementReading) {
+    elementReading = "Tidak ada satu elemen yang terlalu dominan. Energinya cukup seimbang, jadi hasil hari ini sangat bergantung pada caramu merespons keadaan.";
+  }
+
+  const detailReading = cards.map((card, index) => {
+    return `
+      <p>
+        <strong>${positions[index]} — ${card.title}</strong><br>
+        Kartu ini menunjukkan ${positionMeaning[index]}.
+        Pesannya: ${card.meaning}
+      </p>
+    `;
+  }).join("");
+
+  let finalPrediction = "";
+
+  if (swordsCount >= 2) {
+    finalPrediction += "Hari ini kamu mungkin mudah banyak berpikir. Jangan biarkan pikiran kecil berubah menjadi beban besar. ";
+  }
+
+  if (cupsCount >= 2) {
+    finalPrediction += "Ada energi hangat di sekitar hubungan dan perasaan. Perhatian kecil bisa terasa lebih berarti dari biasanya. ";
+  }
+
+  if (wandsCount >= 2) {
+    finalPrediction += "Ada dorongan untuk melakukan sesuatu, memulai langkah kecil, atau menyalakan kembali semangat yang sempat redup. ";
+  }
+
+  if (pentaclesCount >= 2) {
+    finalPrediction += "Hari ini baik untuk merapikan hal praktis: uang, pekerjaan, makanan, istirahat, atau hal yang membuatmu merasa aman. ";
+  }
+
+  if (majorCount >= 3) {
+    finalPrediction += "Karena energi Arcana Mayor cukup kuat, apa pun yang terjadi hari ini sebaiknya dilihat sebagai pesan, bukan sekadar kejadian biasa.";
+  }
+
+  if (!finalPrediction) {
+    finalPrediction = "Hari ini membawa energi campuran yang lembut. Tidak semuanya akan langsung jelas, tapi ada tanda kecil yang membantu kamu memahami arah hati sendiri.";
+  }
+
+  return `
+    <hr>
+
+    <p><strong>✨ Ramalan Hari Ini ✨</strong></p>
+
+    <p>
+      Dari kartu <strong>${cards.map(card => card.title).join(", ")}</strong>,
+      ini pembacaan tarotmu hari ini.
+    </p>
+
+    <p>${intro}</p>
+    <p>${elementReading}</p>
+
+    ${detailReading}
+
+    <p>
+      <strong>Kesimpulan Ramalan</strong><br>
+      ${finalPrediction}
+    </p>
+
+    <p>
+      Pesan akhir dari kucing bintang: jalani hari ini dengan pelan,
+      dengarkan intuisi, dan jangan abaikan tanda kecil yang membuat hatimu terasa lebih hangat.
+    </p>
+  `;
+}
+
 function renderCards() {
+  openedCards = [];
   cardsEl.innerHTML = "";
   resultEl.innerHTML = "<p>🐾 Kartu belum dibuka. Para kucing bintang masih berunding...</p>";
 
-  shuffle(tarotCards).slice(0, 3).forEach((card, index) => {
+  shuffle(tarotCards).slice(0, 5).forEach((card, index) => {
     const cardEl = document.createElement("article");
     cardEl.className = "card";
+
     cardEl.innerHTML = `
       <div class="card-inner">
         <div class="face front">
           <div class="card-symbol">✦<span>CARD ${index + 1}</span></div>
         </div>
+
         <div class="face back">
           <img class="tarot-img" src="${card.image}" alt="${card.title}">
           <h3>${card.title}</h3>
@@ -499,11 +630,19 @@ function renderCards() {
     `;
 
     cardEl.addEventListener("click", () => {
-      cardEl.classList.toggle("open");
+      if (cardEl.classList.contains("open")) return;
+
+      cardEl.classList.add("open");
+      openedCards.push(card);
+
       resultEl.innerHTML = `
         <p><strong>${card.title}</strong></p>
         <p>${card.meaning}</p>
       `;
+
+      if (openedCards.length === 5) {
+        resultEl.innerHTML += generateDailyReading(openedCards);
+      }
     });
 
     cardsEl.appendChild(cardEl);
